@@ -1,0 +1,85 @@
+/*========================
+GENERAL (BODY)
+========================*/
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+}
+
+/*========================
+GRID
+========================*/
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  height: 100px;
+  background-color: #fbae17;
+  color: #2677bb;
+  font-size: 30px;
+  font-weight: 400;
+  font-family: 'Nunito', Open Sans;
+}
+
+
+body {
+  height: 800px;
+  background-color: #fff;
+}
+
+footer{
+  margin: 40px 0 0 0;
+  height: 60px;
+  background-color: red;
+  color:  #EE2C2C;
+  font-family: 'Nunito', Open Sans;
+
+}
+.form-group{
+  height: 20px;
+  margin: 40px;
+  text-align: center;
+  font-family: 'Nunito', Open Sans;
+}
+.details {
+  
+}
+.action-call{
+  text-align: center;
+  font-family: 'Nunito', Open Sans;
+  color: red;
+}
+.submit{
+  font-family: 'Nunito', Open Sans;
+  font-size: 20px;
+
+}
+.logo,
+.tagline{
+  display: inline-block;
+}
+.tagline{
+  width: 39%;
+  display: inline-block;
+  float: right;
+  color:  #EE2C2C;
+}
+.logo {
+ float: left;
+ font-size: 60px;
+ font-weight: 400;
+ letter-spacing: .5px;
+ line-height: 44px;
+ margin-top: 0;
+ margin-bottom: 20px;
+ padding: 0 0 80px 0;
+ text-transform: uppercase;
+ color: #00BFFF;
+}
